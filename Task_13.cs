@@ -16,7 +16,7 @@ int[] NewArray = new int[count];
 
 if (count >= 3)
 {
-    int countTemp = count;
+    int countTemp = count; // переменная нужна для выхода из цикла в строках 21-28, т.к. переменная count будет обнуляться там же для выделения цифр из числа. 
     
     while (fillArray < countTemp)
     {
